@@ -1,0 +1,10 @@
+Known issue: I cannot directly extract the skyarea from the defined ultrasat survey.  Failing that, I can recreate the
+circular footprint, but isn't quite correct as it pretends it is flat.  The rates are CORRECT, but the target coordinates are only
+over a smaller circle compared to the actual footprint.
+
+For the base afterglow object and zmax=0.2, get about 1 detection per month for every 10^4/Gpc^3 in volumetric rate.
+So, a volumetric rate of 10/Gpc^3 corresponds to about 0.012 detections per year. (Implies 25 for whole sky)
+
+For zmax=2.5, get 350 detections per month for 10^3/Gpc^3, so a rate of 10/Gpc^3 corresponds to 3.5 detections per month, or 40 per year.
+
+For zmax=1, get 64 detections per month for 10^3/Gpc^3, so a rate of 10/Gpc^3 corresponds to 0.64 detections per month, or 8 per year.
